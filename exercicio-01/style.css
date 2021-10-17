@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+body { 
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    border-radius: 8px;
+}
+
+header {
+
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+
+    padding: 40px 40px 0px 40px;
+}
+
+.container {
+    color: #FFF;
+    flex-grow: 1;
+    display: flex;
+}
+
+.item-1 {
+    padding: 40px 20px 0px 40px;
+    width: 315px;
+    background: #2AB3B1;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.item-2 {
+    width: 315px;
+    background: #3ec9c9;
+    mix-blend-mode: normal;
+    padding: 40px 45px 0px 40px;
+   
+}
+
+
+h1 {
+    color: #2AB3B1;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    color: #C0DF33;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 11px;
+}
+
+p {
+    color: #9AA7BE;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+
+.item-1 h2 {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 18px;
+}
+
+.item-1 .numero {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.item-1 span {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 4px;
+}
+
+.item-1 p {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+
+.item-1 a {
+    color: #FFF;
+    text-decoration: none;
+    background: #C0DF33;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    border-radius: 5px;
+    padding: 10px 75px 10px 75px;
+}
+
+.item-2 h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.item-2 p {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+
+
+

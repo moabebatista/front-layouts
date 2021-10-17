@@ -1,0 +1,353 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F2F2F2;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+/*Estilização do cabeçalho*/
+
+header {
+    background-image: url('./assets/image-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1440px;
+    height: 800px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+}
+
+.icones {
+    display: flex;
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+
+
+.icones li, a {
+    margin-left: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+}
+
+.icones a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.btn-contato a {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+
+    color: #24303E;
+    background-color: white;
+
+    letter-spacing: -0.107143px;
+    text-transform: uppercase;
+    
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+
+}
+
+.hero-section {
+    text-align: center;
+    margin-top: 105px;
+}
+
+.hero-section img {
+    padding-top: 98px;
+}
+
+.hero-section h1 {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 69px;
+    color: #FFFFFF;
+}
+
+/*Estilização da Parte Principal*/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.divided-section {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    max-height: 600px;
+    align-items: center;
+}
+
+.texto-square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 720px;
+    height: 600px;
+    background: #FFF;
+}
+
+.corpo-text {
+    margin: 110px 157px;
+}
+
+.texto-square h1, span {
+    color: #24303E;
+}
+
+.texto-square h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 30px;
+}
+
+.texto-square p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #808397;
+    margin-bottom: 40px;
+}
+
+.texto-square span {
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+.background-egg {
+    background-image: url('./assets/image-transform.jpg');
+    background-size: cover;
+    width: 720px;
+    height: 600px;
+}
+
+.background-cup {
+    background-image: url('./assets/image-stand-out.jpg');
+    background-size: cover;
+    width: 720px;
+    height: 600px;
+}
+
+.design {
+    background-image: url('./assets/image-graphic-design.jpg');
+    background-size: cover;
+    width: 720px;
+    height: 600px;
+}
+
+.photography {
+    background-image: url('./assets/image-photography.jpg');
+    background-size: cover;
+    width: 720px;
+    height: 600px;
+}
+
+.texto-design {
+    padding-top: 350px;
+    padding-right: 120px;
+    padding-left: 150px;
+    text-align: center;
+}
+
+.texto-photography {
+    padding-top: 350px;
+    padding-right: 120px;
+    padding-left: 150px;
+    text-align: center;
+}
+
+.texto-design h1, p {
+    color: #24554A;
+}
+
+.texto-design h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.texto-design p {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.texto-photography h1, p {
+    color: #19536C;
+}
+
+.texto-photography h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.texto-photography p {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.titulo {
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    padding-top: 160px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    color: #A7AAAD;
+}
+
+/*Estilização da Parte dos testemoniais*/
+
+
+.testimoniais {
+    width: 1440px;
+    height: 800px;
+    background: #FFF;
+}
+
+.titulo {
+    margin-bottom: 80px;
+}
+
+.testimoniais-square {
+    display: flex;
+    text-align: center;
+    margin: 100px;  
+}
+
+.os-testimoniais img {
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+
+.os-testimoniais p, span {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.os-testimoniais p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #5B636D;
+    margin-bottom: 70px;
+}
+
+.os-testimoniais h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.os-testimoniais span {
+    font-size: 14px;
+    line-height: 25px;
+    color: #A7AAAD;
+    margin-bottom: 150px;
+}
+
+/*Estilização da Parte do Rodapé*/
+
+.imagens {
+    display: flex;
+    align-items: flex-start;
+    min-width: 100vh;
+}
+
+.imagem-1 {
+    background-image: url('./assets/image-gallery-milkbottles.jpg');
+    background-size: cover;
+    width: 360px;
+    height: 447px;
+}
+
+.imagem-2 {
+    background-image: url('./assets/image-gallery-orange.jpg');
+    background-size: cover;
+    width: 360px;
+    height: 447px;
+}
+
+.imagem-3 {
+    background-image: url('./assets/image-gallery-cone.jpg');
+    background-size: cover;
+    width: 360px;
+    height: 447px;
+}
+
+.imagem-4 {
+    background-image: url('./assets/image-gallery-sugarcubes.jpg');
+    background-size: cover;
+    width: 360px;
+    height: 447px;
+}
+
+.rodape {
+    background: #90D4C6;
+    text-align: center;
+    width: 1440px;
+    height: 350px;
+}
+
+.rodape img {
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+
+.menu-rodape a {
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    color: #458D7E;
+}
+
+.redes-sociais img {
+   padding-left: 20px;
+}
